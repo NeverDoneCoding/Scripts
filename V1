@@ -1,1 +1,26 @@
 
+SQL
+
+The SQL team is progressing with a PITX for the orphan users rule as part of remediation. Scores have remained stable over the last three reporting cycles.
+
+Endpoints
+
+Win 11 CIS benchmark reporting began in August at 88%. A PITX has been approved, with configuration and deployment currently in progress.
+
+All Win 11 CIS policies for PROD are now in place, with the migration target set for completion before the first week of October. Scores for Win 11 are showing steady improvement with each cycle.
+
+For Win 10, the ITX renewal submission deadline was missed, and two related ITXs have expired. Renewal can now only happen after the month-end report, which may impact scores. The exact impact is unknown due to Nexpose technical limitations where these scores are excluded from scans rather than granted exceptions.
+
+The team is attempting to secure inclusion of the Win 10 ITX renewals in the August 19 ITRC meeting to mitigate the score impact.
+
+CIS scans for Windows Server continue to face Nexpose issues, with reporting still reflecting November’s scores.
+
+Platform Engineering
+
+Network Devices: Scores continue to remain stable above 98%, demonstrating consistent compliance.
+
+Linux: Scores have remained above 97% for the past three cycles. Last month’s Nexpose scanning issue has been resolved. A few rules remain as false positives, which the SRC team has agreed to exclude from reporting. SMEs are updating engineering standards and converting certain PITXs where remediation is not feasible.
+
+AWS: Scores remain above 98% for the last three cycles, with ongoing coordination with DTS for remediation.
+
+Azure: A mid-month Wiz update caused a marginal dip in scores. Most failed resources have been remediated successfully, and the team continues to maintain scores above 97% over the past few cycles.
